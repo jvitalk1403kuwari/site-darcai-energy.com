@@ -16,12 +16,14 @@ body {
 
 /* Header Section */
 .hero {
-    background: linear-gradient(rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8)), url('images/header-bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(20, 30, 48, 0.8), rgba(36, 59, 85, 0.8)), 
+                url('images/header-bg.jpg') no-repeat center center / cover;
     color: #EAEAEA;
     text-align: center;
     padding: 50px 20px;
-    animation: gradientBackground 10s infinite alternate;
+    animation: gradientBackground 10s infinite alternate ease-in-out;
 }
+
 
 .hero .logo {
     max-width: 150px;
@@ -131,6 +133,11 @@ h2 {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
 }
+
+.project-item p {
+    padding-bottom: 20px;
+}
+
 
 
 
